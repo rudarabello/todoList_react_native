@@ -10,7 +10,7 @@ Simple app to make reminders to yourself, made with Expo on React Native
 
 ## Status
 
-![status-ongoing](https://img.shields.io/badge/status-ongoing-yellow?style=for-the-badge)
+![status-finished](https://img.shields.io/badge/status-ongoing-green?style=for-the-badge)
 
 ## Built With
 

@@ -1,7 +1,7 @@
 # Todo List
 
 <p align="center">
-  <img  src="src/assets/to-do-list-png" height="250px"/>
+  <img  src="assets/to-do-list.png" height="250px"/>
 </p>
 
 ## Description

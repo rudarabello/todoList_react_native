@@ -16,7 +16,18 @@ export default function App() {
       >
       <View style={styles.tasksWrapper}>
         <Text style={styles.sectionTitle}>Today's tasks</Text>
-        
+        <View style={styles.items}>
+          {
+            taskItems.map((item, index) => {
+              return (
+                <TouchableOpacity key={index}  onPress={() =>
+                completeTask(index)}>
+                  <Task text={item} /> 
+                </TouchableOpacity>
+              )
+            })
+          }
+        </View>
       </View>
       </ScrollView>
       <KeyboardAvoidingView 

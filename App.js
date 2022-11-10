@@ -7,7 +7,17 @@ export default function App() {
   const [task, setTask] = useState();
   const [taskItems, setTaskItems] = useState([]);
 
-  
+  const handleAddTask = () => {
+    Keyboard.dismiss();
+    setTaskItems([...taskItems, task])
+    setTask(null);
+  }
+
+  const completeTask = (index) => {
+    let itemsCopy = [...taskItems];
+    itemsCopy.splice(index, 1);
+    setTaskItems(itemsCopy)
+  }
 
   return (
     <View style={styles.container}>
@@ -31,7 +41,7 @@ export default function App() {
       </View>
       </ScrollView>
       <KeyboardAvoidingView 
-        behavior={Platform.OS  === "Android" ? "padding" : "height"}
+        behavior={Platform.OS === "Android" ? "padding" : "height"}
         style={styles.writeTaskWrapper}
       >
         <TextInput style={styles.input} placeholder={'Write a task'}

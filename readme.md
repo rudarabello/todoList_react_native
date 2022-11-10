@@ -6,19 +6,17 @@
 
 ## Description
 
-Simple app to make reminders to yourself, made with Expo on React Native 
+Simple app to make reminders to yourself, made with Expo on React Native
 
 ## Status
 
 ![status-ongoing](https://img.shields.io/badge/status-ongoing-yellow?style=for-the-badge)
-
 
 ## Built With
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-
 
 ## Running locally
 
@@ -46,6 +44,7 @@ Simple app to make reminders to yourself, made with Expo on React Native
     ```bash
     npm run start
     ```
+
 ## Made by:
 
 <table>

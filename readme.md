@@ -39,11 +39,17 @@ Simple app to make reminders to yourself, made with Expo on React Native
     npm install
     ```
 
-4. To run the project locally:
+4. To run the project on expo:
 
     ```bash
-    npm run start
+    expo start
     ```
+5. Download on your phone the app "Expo Go" read QR code and enjoy! 
+
+  Initial |  
+:----------:|
+<img src="assets/Expo Go.jpg" alt="initial"  height="300"> 
+
 
 ## Made by:
 
